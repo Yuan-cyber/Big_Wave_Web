@@ -1,0 +1,49 @@
+{
+  "name": "nazare-big-wave-experience",
+  "version": "1.0.0",
+  "description": "A tourism web platform to showcase the unique big wave experience in Nazaré, Portugal",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@sendgrid/mail": "^8.1.1",
+    "@supabase/supabase-js": "^2.39.7",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.356.0",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "tailwind-merge": "^2.2.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "nazare",
+    "big-wave",
+    "surfing",
+    "tourism",
+    "portugal",
+    "nextjs",
+    "supabase"
+  ],
+  "author": "Nazaré Big Wave Experience Team",
+  "license": "MIT"
+}
