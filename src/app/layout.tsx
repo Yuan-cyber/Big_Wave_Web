@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
+import { Header, Footer } from "./components";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,11 +36,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Nazaré Big Wave Experience Team" }],
   creator: "Nazaré Big Wave Experience",
   publisher: "Nazaré Big Wave Experience",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
+  formatDetection: { email: false, address: false, telephone: false },
   openGraph: {
     type: "website",
     locale: "en_US",
